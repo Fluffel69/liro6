@@ -16,3 +16,5 @@ elif x=='текст':
 elif x=='выход':
     pyautogui.moveTo(1750,20)
     pyautogui.click()
+else:
+    print('неизвестная команда')
