@@ -9,13 +9,8 @@ combo=Combobox(window)
 
 result=Label(window,text='',font=('Kegel',50))
 def f():
-    u=0
-    i=''
-    while i != ' ':
-        u+=1
-        i=ent1.get()[u]
     if '+' in ent1.get():
-        result.configure(text=int(ent1.get()[0:u])+int(ent1.get()[u:]))
+        result.configure(text=int(ent1.get()[0])+int(ent1.get()[2]))
     if '-' in ent1.get():
         result.configure(text=int(ent1.get()[0])-int(ent1.get()[2]))
     if '*' in ent1.get():
