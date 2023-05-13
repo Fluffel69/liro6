@@ -17,7 +17,6 @@ def f():
         result.configure(text=int(ent1.get()[0])*int(ent1.get()[2]))
     if '/' in ent1.get():
         result.configure(text=int(ent1.get()[0])/int(ent1.get()[2]))
-print(ent1.get())
 def h1():
     ent1.insert(END,1)
 def h2():
